@@ -1,0 +1,20 @@
+create git repo in git hub
+create gitignore - add readme
+
+clone via ssh - copy url
+cd ~/git/datavis/Homework
+git clone git@github.com:evansvillewy/03-Python-Homework.git
+mkdir GRADE_THIS
+mkdir DO_NOT_USE
+ 
+cd ~/git/dataviz/UCF-LKM-DATA-PT-11-2019-U-C/Homework/03-Python 
+
+cp -r ./* ~/git/dataviz/Homework/03-Python-Homework/GRADE_THIS/
+
+cd ~/git/datavis/Homework/03-Python-Homework
+
+#shows changes, untracked
+git status
+
+# add everything
+git add .
